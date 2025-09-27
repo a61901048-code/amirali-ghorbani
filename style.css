@@ -1,0 +1,100 @@
+@import url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css');
+
+:root {
+  
+  --milk-bg:#fffcf0;         /* شیری */
+  --pastel-purple: #111150;   /* بنفش پاستیلی */
+  --pastel-green: #0d6a93;    /* سبز پاستیلی */
+}
+
+body {
+  margin: 0;
+  font-family: 'Vazir', sans-serif;
+  background-color: var(--milk-bg);
+  color: var(--pastel-purple);
+  line-height: 1.8;
+}
+
+.header-box {
+  background-color: var(--milk-bg);
+  padding: 20px;
+  text-align: center;
+  border: 2px solid var(--pastel-green);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.header-box h1 {
+  margin: 0;
+  font-size: 32px;
+  color: var(--pastel-purple);
+}
+
+.header-box p {
+  font-size: 18px;
+  color: var(--pastel-purple);
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  background-color: #b9e2fb;
+  border: 2px solid var(--pastel-green);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: var(--pastel-purple);
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--pastel-green);
+  padding-bottom: 5px;
+}
+
+section p, section ul {
+  color: var(--pastel-purple);
+  font-size: 16px;
+}
+
+ul {
+  padding-right: 20px;
+}
+
+a {
+  color: var(--pastel-green);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer-box {
+  text-align: center;
+  padding: 15px;
+  background-color: var(--milk-bg);
+  color: var(--pastel-purple);
+  font-size: 14px;
+  border-top: 2px solid var(--pastel-green);
+}
+
+@media (max-width: 600px) {
+  .content {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .header-box h1 {
+    font-size: 24px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+}
